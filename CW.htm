@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    <link rel="stylesheet" href="Style.css">
+    
+</head>
+<body>
+    <Ul id="Navbar">
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">products</a></li>
+        <li><a href="#">contact</a></li>
+        <li><a href="#">sign in</a></li>
+    </Ul>
+    <form action="/action_page.php">
+        <div>
+            <label for="uname" >User Name:</label>
+            <input type="text" id="uname" name="uname" value="John" >
+        </div>
+        <br>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" value="Doe">
+        </div>
+        
+        <div>
+            <p>gender:</p>
+            <input type="radio" id= "male" name="gender" value="male">
+            <label for="male">male</label>
+            <input type="radio" id= "female" name="gender" value="female">
+            <label for="female">female</label>
+            <br>
+        </div>
+        <div>
+            <label for="Cities">choose a city</label>
+            <select name="Cities" id="Cities">
+                <option value="Tehran">Tehran</option>
+                <option value="Yazd">Yazd</option>
+            </select>
+        </div>
+        <div>
+            <p>what is your skills:</p>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> I have a boat</label><br><br>
+        </div>
+
+        <input type="submit" value="Submit">
+      </form> 
+      <br>
+      <table>
+        <thead>
+            <tr>
+                <td></td>
+                <td>First Name</td>
+                <td>Last Name</td>
+                <td>Contact number</td>
+                <td>Address</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Milad</td>
+                <td>Ghazanfari</td>
+                <td>1234</td>
+                <td>tehran ...</td>
+            </tr>
+        </tbody>
+      </table>
+</body>
+</html>
